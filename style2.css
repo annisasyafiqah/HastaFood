@@ -1,0 +1,224 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color:#FBE7D3;
+}
+.konten {
+	padding: 5% 20%;
+	color: #283618;
+}
+
+.konten img{
+	text-align: center;
+}
+.konten	h1{
+	top : 0;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #963F2D;
+}
+
+.isi{
+	padding: 30%;
+}
+/*gambar hero*/
+.hero-image{
+	background-image: linear-gradient(rgba(0,0,0, -0.5), rgba(0,0,0, -0.5)), url("bgneww.png");
+	height:90%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 5px rgba(0, 0, 255, .2);
+}
+
+.navigasi img{
+	width: 80px;
+	height: 30px;
+	padding-top: 20px ;
+	padding-left: 30px;
+	float: left;
+	box-shadow: 5px rgba(0, 0, 255, .2);
+}
+
+
+.navigasi{
+	box-sizing: border-box;
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	background: rgba(255,255,255,0.9);
+	z-index: 1;
+}
+
+.menunavigasi ul{
+	list-style-type: none;
+	float: right;
+	overflow: hidden;
+	padding-right: 5%;
+}
+
+.menunavigasi ul li{
+	float: left;
+
+}
+
+.menunavigasi li a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #FF7E00;
+	text-align: center;
+	font-size: 17px;
+} 
+
+.menunavigasi li a:hover{
+	background-color: #FF7E00;
+	border-radius: 10px;
+	color: white;
+}
+
+.hero-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.hero-text button{
+	background-color:  #FF7E00;
+	color: white;
+  	font-size: 16px;
+  	padding: 12px 24px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+.hero-text button:hover{
+	background-color: white;
+  	color: #FF7E00;
+  	border : 2px solid #FF7E00;
+}
+.kolomtengah{
+	width: 25%;
+}
+.kolomkiri {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 10px;
+	color: #283618;
+	float: left;
+	padding-left: 20px;
+}
+
+.kolomkiri h2 .judulArtikel {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.kolomkiri h5 .tanggalPosting{
+	font-size: 10px;
+	color: rgb(231, 111, 81);
+	margin-top: 10px;
+}
+.kolomkanan{
+	box-sizing: border-box;
+	width: 25%;
+	float: right;
+	padding-top: 25px;
+}
+
+.kolomkanan .judulSidebar {
+	 background-color: #606c38;
+	 color: rgb(241, 250, 238);
+	 text-align: center;
+	 padding: 5px;
+	 border-radius: 5px;
+}
+
+.isiSideBar .gambar {
+	width: 300px;
+	height: 100spx;
+	margin : 5px;
+	float: left;
+}
+.side {
+	margin-bottom: 50px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.side img{
+	width: 550px;
+	height: 350px;
+	padding-left: 15%;
+}
+.konten .judulArtikel{
+	text-align: center;
+}
+.form{
+	float: center;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #d2a56d;
+	border-radius: 20px;
+	padding: 30px 60px;
+
+}
+
+.button input{
+	background-color: white;
+  	color: #555;
+  	font-size: 16px;
+  	padding: 10px 20px;
+  	border: none;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+.txtfield{
+	padding: 10px 20px;
+}
+
+.txtfield input{
+	padding: 5px 10px;
+}
+
+.footer{
+/*	width: 100%;
+    height: 20px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    bottom: 0px;
+    display:table;*/
+	bottom: 0;
+    width: 100%;
+    display: table;
+    line-height:50px;
+    background:#3c3a3a;
+    color:#fff;
+    padding-left: 10px;
+   /* */
+  /*  width:100%;
+    margin-bottom:0px;
+    padding:0px 0;
+    text-align:left;
+    font-size:13px;
+     color:#999;
+     background-color: #333;*/
+}
+
+

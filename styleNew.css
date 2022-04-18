@@ -1,0 +1,229 @@
+body{
+    margin:0;
+    width: 100%;
+    background-color: #FBE7D3;
+    font-family: 'Quicksand', sans-serif;
+}
+  
+  /*Bagian Navigasi*/
+.navigasi img{
+    width: 80px;
+    height: 30px;
+    padding-top: 20px ;
+    padding-left: 30px;
+    float: left;
+    box-shadow: 5px rgba(0, 0, 255, .2);
+}
+.navigasi{
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255,255,255,0.9);
+    z-index: 1;
+}
+.menunavigasi ul{
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+    padding-right: 5%;
+}
+.menunavigasi ul li{
+    float: left;
+
+}
+.menunavigasi li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #FF7E00;
+    text-align: center;
+    font-size: 17px;
+} 
+.menunavigasi li a:hover{
+    background-color: #FF7E00;
+    border-radius: 10px;
+    color: white;
+}
+
+/*Bagian box atau konten*/
+
+.box{
+    margin:0 auto;
+    position:relative;
+    height: 2000px;
+}
+.box .header{
+    height:90%;
+    line-height:120px;
+}
+    /*bagian header*/
+
+    .hero-image{
+    background-image: linear-gradient(rgba(0,0,0, -0.5), rgba(0,0,0, -0.5)), url("bgneww.png");
+    height:90%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px rgba(0, 0, 255, .2);
+    }
+    .hero-text{
+    padding: 10% 10%;
+    }
+    .hero-text button{
+        background-color:  #FF7E00;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .hero-text button:hover{
+        background-color: white;
+        color: #FF7E00;
+        border : 2px solid #FF7E00;
+    }
+
+
+.box .left{
+    margin-top: 0;
+    padding-top: 20px;
+    width:/*250px*/ 20%;
+    background-color:#6A6058;
+    position:absolute;
+    height: 75%;
+    border-radius: 35px;
+    left: 0;
+}
+.box .left h1{
+    color:#FBE7D3 ;
+    size: 25px;
+}
+
+.box .left input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.box .left ul{
+    text-align: left;
+    float: left;
+    top: 0;
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #0CAFA9;
+    
+}
+.box .left ul li a{
+    padding: 10px 0px 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.box .left ul li a:hover{
+    color: /*#FF7E00*/#BED8CF;
+    font-style: oblique;
+}
+.box .center{
+    height: 75%;
+    margin:0 200px 0 330px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    align-content: center;
+    width: 55%;
+    
+}
+.box .center h1{
+    color: black;
+    font-weight: 600;
+}
+.box .center .content{
+    border-radius: 10px;
+    margin:20px 55px 0 25px;
+    text-align: left;
+    padding: 5%;
+    padding-top: 5px; 
+    background: rgba(255,255,255,0.9);
+}
+.box .center .content img{
+    width: 600px;
+    height: 350px;
+}
+.content a{
+    color: #0CAFA9;
+}
+.content a:hover{
+    font-style: oblique;
+}
+.box .center .form {
+    text-align: left;
+    background-color: #FBE7D3;
+    padding: 5% 20%;
+    border-color: black;
+    border-width: 10px;
+}
+.box .center .form h1{
+    text-align: center;
+}
+.box .center .form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.box .center .form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.box .right{
+    height: 75%;
+    width:20%;
+    border-radius: 35px;
+    padding-top: 20px;
+    background-color:/*#963F2D*/ white;
+    position:absolute;
+    right:0;
+    top:0px;
+}
+.box .right h2{
+    color: #FF7E00/*#FBE7D3*/;
+}
+.box .right .mini{
+    padding: 0px 20px 0px 40px;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+}
+.box .right .mini img{
+    width: 200px;
+    height: 130px;
+}
+.mini a{
+    color: #0CAFA9;
+}
+.mini a:hover{
+    font-style: oblique;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    display: table;
+    line-height:50px;
+    background:#3c3a3a;
+    color:#fff;
+    padding-left: 10px;
+    position: absolute;
+}
+
+div{
+    text-align:center;
+}
