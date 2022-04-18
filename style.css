@@ -1,0 +1,65 @@
+form{
+	width: 200px;
+    padding-right: 5px;
+  	background: #ffff;
+  	max-width: 600px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+h1{
+	color: #9acbfc;
+	font-size: 30px;
+	width: 200px;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:montserrat;
+	background: linear-gradient(120deg,#9acbfc,#e59afc);
+	height: 100vh;
+	overflow: hidden;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 320px;
+	background: white;
+	border-radius: 20px;
+}
+.center h1{
+	text-align: center;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid silver;
+}
+
+form .txtfield{
+	position: relative;
+	margin: 20px 0;
+}
+.txtfield input{
+	width: 100%;
+	padding: 5 0px;
+	font-size: 14px;
+
+}
+.txtfield label{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+}
+form .button{
+	text-align: center;
+}
+form .button p{
+	font-size: 11px;
+}
